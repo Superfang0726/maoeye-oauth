@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MaoEye</title>
+<style>
+  :root { color-scheme: light dark; --fg: #1f2328; --bg: #ffffff; --muted: #59636e; --link: #0969da; }
+  @media (prefers-color-scheme: dark) { :root { --fg: #e6edf3; --bg: #0d1117; --muted: #9198a1; --link: #4493f8; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.7 system-ui, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+  h1 { margin: 0 0 8px; } p, li { color: var(--fg); } .muted { color: var(--muted); }
+  a { color: var(--link); }
+</style>
+</head>
+<body>
+<main>
+  <h1>MaoEye</h1>
+  <p class="muted">個人使用的郵件自動化工具 · A personal email automation tool</p>
+
+  <p>MaoEye 由作者在自己的伺服器上執行，只用來處理<strong>作者本人</strong>的 Gmail 帳號，不對外提供服務，也不開放其他人登入使用。</p>
+  <ul>
+    <li>讀取來自單一特定寄件者的訂閱郵件，整理成結構化的資料。</li>
+    <li>在這些郵件上加 Gmail 標籤，標記處理結果。</li>
+    <li>不寄信、不刪信，也不讀取其他寄件者的郵件內容。</li>
+  </ul>
+
+  <p>MaoEye is run by its author on their own server and works only with the author's own Gmail account. It is not offered to the public. It reads newsletter emails from one specific sender, adds Gmail labels to record the processing result, and never sends or deletes email.</p>
+
+  <p><a href="privacy.html">隱私權政策 · Privacy Policy</a></p>
+</main>
+</body>
+</html>
